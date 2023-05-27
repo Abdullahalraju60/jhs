@@ -1,0 +1,201 @@
+ body{
+   margin:0 ;
+   font-family:sans-serif;
+   font-size: 16px ;
+   font-weight:400 ;
+   background-color: #E5E4E2; 
+ }
+ /*----header start----*/
+ header{
+   padding: 0 0;
+   padding-bottom: 0;
+ }
+ hr{
+   margin: 0;
+ }
+ .container{
+   margin: 0 auto;
+   margin-top: 30px;
+   padding: 0;
+   width: 80%;
+   overflow: hidden; 
+ }
+ .container2{ 
+   width: 75%;
+   float: left;
+ }
+ .container3{
+   width: 25%;
+   float: right;
+   font-size: 20px;
+ }
+ .aside-text{
+   float: right;
+ }
+ button{
+   width: 150px;
+   height: 70px;
+   color: white;
+   background-color: black;
+ }
+ button:hover{
+   color: yellow;
+ }
+ .logo{
+    width: 15%;
+    float: left;
+ }
+ .logo img{
+    width: 100%;
+ }
+ .navbar{
+    width: 75%;
+    float: right;
+    display: inline-block;
+ }
+ .navbar ul{
+    padding:10px;
+    float: right;
+ }
+ .navbar ul li{
+    padding:0 20px;
+    list-style: none;
+    float: left;   
+ }
+ .navbar ul li:last-child a{
+    padding-right: 0;
+ }
+ .navbar ul li a{
+    color: black;
+    float: right;
+    margin: 5px 6px;
+    text-decoration: none;
+ }
+ .navbar ul li a:hover{
+    color: yellow ;
+ }
+ /*-----header end-----*/
+ /*-----section start-----*/
+ .box{
+    padding-top: 30px;
+ }
+ .box2{
+   padding-top: 30px;
+ }
+ .banner-text{
+    font-family: 'Lobster', cursive;
+    width: 50%;
+    float: left;
+ }
+ .banner-text h1{
+    padding-top: 70px;
+    font-size: 65px;
+ }
+ .banner-img{
+    width: 50%;
+    float: right;
+ }
+ .banner-img img{
+    border-radius: 10%;
+    width: 100%;
+ }
+ /*-----section end-----*/
+ /*-----1st section start -----*/
+ .Overview{
+  padding-top: 90px;
+  padding-left:50px ;
+  padding-right: 50px;
+ }
+ .Overview h2{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  padding-bottom:15px ;
+
+ }
+ .Overview p{
+  font-size: 16px;
+  line-height: 25px;
+ }
+ /*-----1st section end -----*/
+ /*-----2nd section start -----*/
+  /*services start*/
+  .service{
+   padding: 100px;
+    
+ }
+ .s_service{
+   margin-right:2%;
+   width: 32%;
+   padding: 50px 20px 60px;
+   box-sizing: border-box;
+   float: left;
+ }
+ /*color start*/
+
+.s_service:last-child{
+   margin: 0;
+}
+  .service h1{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    padding-left: 95px;
+   
+  }
+ .s_img img{
+   border-radius: 50%;
+   width: 100%;
+   font-weight: 700;
+ }
+ .s_h2{
+   margin-top: 30px;
+   font-size:25px ;
+   text-align: center;
+   font-family: 'Lobster', cursive;
+ }
+ .s_p{
+   margin-top: 20px;
+   line-height: 25px;
+   text-align: center;
+ }
+ /*services end*/
+ /*-----2nd section end--- */
+ /*-----3rd section start--- */
+ .tab{
+  padding-bottom: 80px;
+ }
+ .tab h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+ }
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/*-----3rd section end--- */
+ /*footer start*/
+ footer{
+  padding-top: 22px;
+  height: 70px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+ }
+ footer span{
+  font-size: 25px;
+  color: black;
+  font-family: arial, sans-serif;
+ }
+/*footer end*/
